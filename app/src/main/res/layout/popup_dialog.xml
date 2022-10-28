@@ -40,19 +40,6 @@
             app:lottie_autoPlay="true"
             android:layout_weight="1"
             app:lottie_loop="false"/>
-
-        <TextView
-            android:id="@+id/popupDialog_tv_phonenumber"
-            android:visibility="gone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:text="" />
-
     </LinearLayout>
 
 
