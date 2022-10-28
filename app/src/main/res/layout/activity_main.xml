@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation = "vertical">
+
+    <TextView
+        android:id = "@+id/headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="חידון שכנות ישראל"
+        android:gravity="center"
+        android:textColor = "#000000"
+        android:textSize = "40sp"
+        android:textStyle = "bold"
+        android:layout_marginVertical="15dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id = "@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="איזו מדינה חתמה על הסכם שלום עם מדינת ישראל ב1979?"
+        android:layout_gravity = "center"
+        android:textColor = "#FFFA00"
+        android:background="@color/teal_200"
+        android:textSize = "25sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        />
+
+    <RadioGroup
+        android:id = "@+id/radioG1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="2"
+        >
+
+        <RadioButton
+            android:id="@+id/q1_Option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="לבנון"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+        <RadioButton
+            android:id="@+id/q1_Option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מצרים"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+        <RadioButton
+            android:id="@+id/q1_Option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ירדן"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id = "@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="איזו מדינה לחמה במלחמת ששת הימים אבל לא במלחמת יום הכיפורים?"
+        android:layout_gravity = "center"
+        android:textColor = "#FFFA00"
+        android:background="@color/teal_200"
+        android:textSize = "20sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        />
+
+    <RadioGroup
+        android:id = "@+id/radioG2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="2">
+
+        <RadioButton
+            android:id="@+id/q2_Option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="סוריה"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+        <RadioButton
+            android:id="@+id/q2_Option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מצרים"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+        <RadioButton
+            android:id="@+id/q2_Option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ירדן"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+    </RadioGroup>
+
+    <TextView
+        android:id = "@+id/question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="איזו מדינה מכונה ארץ הארזים?"
+        android:layout_gravity = "center"
+        android:textColor = "#FFFA00"
+        android:background="@color/teal_200"
+        android:textSize = "25sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        />
+
+    <RadioGroup
+        android:id = "@+id/radioG3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="2">
+
+        <RadioButton
+            android:id="@+id/q3_Option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="לבנון"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+        <RadioButton
+            android:id="@+id/q3_Option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="סוריה"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+        <RadioButton
+            android:id="@+id/q3_Option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מצרים"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/finalize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="הגש שאלון"
+        android:textSize="25dp"
+        android:backgroundTint="#7AFF0000"
+        android:layout_marginVertical="15dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
