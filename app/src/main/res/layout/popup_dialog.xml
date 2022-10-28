@@ -40,8 +40,6 @@
             app:lottie_autoPlay="true"
             android:layout_weight="1"
             app:lottie_loop="false"/>
-
-
     </LinearLayout>
 
 
